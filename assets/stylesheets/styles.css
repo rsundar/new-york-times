@@ -18,7 +18,7 @@ a:hover{
 /*BEGIN nav bar styling*/
 nav .top-nav-bar-container {
     position: sticky;
-    height: 3.2rem;
+    height: 3.6rem;
     width: 100%;
     margin-bottom: 1rem;
     background: #f7f7f7;
@@ -71,9 +71,18 @@ nav .subscribe-btn, .log-in-btn {
     color: white;
     margin-bottom: 0.25em;
     padding-top: 0.625em;
-    padding-right: 1.125em;
-    padding-left: 1.125em;
+    padding-bottom: 0.4em;
     text-align: center;
     cursor: pointer;
+}
+
+nav .subscribe-btn {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+nav .log-in-btn {
+    padding-right: 1.125em;
+    padding-left: 1.125em;
 }
 /*END nav bar styling*/
