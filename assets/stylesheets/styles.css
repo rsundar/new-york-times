@@ -1,0 +1,79 @@
+/* BEGIN base styling*/
+:root {
+    font-size: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.fas {
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 2em;
+    margin-top: 0.25em;
+}
+/*END base styling*/
+
+/*BEGIN nav bar styling*/
+nav .top-nav-bar-container {
+    position: sticky;
+    height: 3.2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e0dcd7;
+    z-index: 10;
+}
+
+nav div.top-nav-bar-container > div {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+}
+
+nav .top-nav-bar-container .right-side-container {
+    position: relative;
+    float: right;
+    text-align: end;
+    width: 25%;
+}
+
+nav .top-nav-bar-container .logo-container {
+    position: relative;
+    left: 20%;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    margin-top: 0.25rem;
+    width: 25%;
+}
+
+nav .top-nav-bar-container .left-side-container {
+    position: relative;
+    float: left;
+    background: #f7f7f7;
+}
+
+nav div.left-side-container > a > p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-top: 0.25em;
+}
+
+nav .subscribe-btn, .log-in-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.2em;
+    background: #326981;
+    border: 1px solid #314191;
+    color: white;
+    margin-bottom: 0.25em;
+    padding-top: 0.625em;
+    padding-right: 1.125em;
+    padding-left: 1.125em;
+    text-align: center;
+    cursor: pointer;
+}
+/*END nav bar styling*/
