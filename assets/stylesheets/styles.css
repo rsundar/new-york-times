@@ -26,6 +26,14 @@ nav .top-nav-bar-container {
     z-index: 10;
 }
 
+nav .top-nav-bar-container:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 nav div.top-nav-bar-container > div {
     height: 100%;
     width: 20%;
